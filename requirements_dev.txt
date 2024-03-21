@@ -18,3 +18,4 @@ cycler==0.11.0
 scipy
 tqdm
 loguru
+imutils
