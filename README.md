@@ -6,11 +6,6 @@ A brief introduction of P2PNet can be found at [机器之心 (almosthuman)](http
 
 The codes is tested with PyTorch 1.5.0. It may not run with other versions.
 
-## Visualized demos for P2PNet
-<img src="vis/congested1.png" width="1000"/>   
-<img src="vis/congested2.png" width="1000"/> 
-<img src="vis/congested3.png" width="1000"/> 
-
 ## The network
 The overall architecture of the P2PNet. Built upon the VGG16, it firstly introduce an upsampling path to obtain fine-grained feature map. 
 Then it exploits two branches to simultaneously predict a set of point proposals and their confidence scores.
@@ -76,7 +71,7 @@ D2CNet | <u>0.700</u> | **0.741**  | 0.662 |
 * Organize your datasets as required
 * Install Python dependencies. We use python 3.6.5 and pytorch 1.5.0
 ```
-pip install -r requirements.txt
+c:\\dpm\py_env\python -m pip install -r C:\dpm\cv\CrowdCounting-P2PNet\requirements.txt --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org
 ```
 
 ## Organize the counting dataset
