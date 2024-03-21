@@ -2,8 +2,8 @@ import os
 import shutil
 import scipy.io
 
-data_source_root = r'C:\dpm\CrowdCounting-P2PNet-main\ShanghaiTech\part_B\test_data'
-output_dir = r'C:\dpm\CrowdCounting-P2PNet-main\DATA_ROOT'
+data_source_root = r'D:\Projects\CrowdCountingTracking-P2PNet\ShanghaiTech\part_B\test_data'
+output_dir = r'D:\Projects\CrowdCountingTracking-P2PNet\DATA_ROOT'
 dataset_part = 'test'
 output_dir_data_lists = output_dir
 output_dir = os.path.join(output_dir, dataset_part)

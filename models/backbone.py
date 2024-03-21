@@ -9,7 +9,7 @@ import torch.nn.functional as F
 import torchvision
 from torch import nn
 
-import p2pnet.models.vgg_ as models
+import models.vgg_ as models
 
 
 class BackboneBase_VGG(nn.Module):

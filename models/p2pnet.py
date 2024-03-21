@@ -8,7 +8,7 @@ import torch.nn.functional as F
 from torch import nn
 from PIL import Image
 
-from p2pnet.util.misc import (NestedTensor, nested_tensor_from_tensor_list,
+from util.misc import (NestedTensor, nested_tensor_from_tensor_list,
                               accuracy, get_world_size, interpolate,
                               is_dist_avail_and_initialized)
 
