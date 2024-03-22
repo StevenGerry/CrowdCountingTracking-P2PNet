@@ -90,8 +90,6 @@ def main(args, debug=False):
     while True:
         try:
             ret, frame = cap.read()
-
-
             new_width = width #// 128 * 128
             new_height = height #// 128 * 128
 
@@ -99,14 +97,11 @@ def main(args, debug=False):
             frame = cv2.resize(frame, (0, 0), fx=scale_factor, fy=scale_factor)
             img_raw= frame.copy()
             ori_img = frame.copy()
-            
-        
+                   
         except:
             print("Test End")
             cap.release()
             break
-        
-
 
         frame = frame.copy()
 
